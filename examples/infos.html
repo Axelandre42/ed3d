@@ -58,14 +58,15 @@
     <div id="debug"></div>
 
 
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <!-- Three.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
 
   <!-- Launch ED3Dmap -->
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
-  <script src="js/ed3dmap.min.js?v=5"></script>
+  <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+  <script src="../js/ed3dmap.min.js?v=6"></script>
   <script type="text/javascript">
 
     var d = new Date()
@@ -75,15 +76,14 @@
     Ed3d.init({
         container   : 'edmap',
        // jsonPath    : "http://www.edsm.net/api-v1/systems?coords=1&known=1&startdatetime="+queryDate,
-        jsonPath    : "json_samples/routes.json",
-        withHudPanel : true,
+        jsonPath    : "json_samples/galnet.json",
+        withHudPanel : false,
         hudMultipleSelect : false,
         effectScaleSystem : [50,10000],
-        startAnim: true,
+        startAnim: false,
         showGalaxyInfos: true,
-        systemColor: '#FF9D00',
-        playerPos: [25,-2100,-3900],
-        cameraPos: [25,9100,-7900],
+        cameraPos: [25,14100,-12900],
+        systemColor: '#FF9D00'
     });
 
   </script>
