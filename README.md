@@ -1,19 +1,37 @@
-# ED3D-Galaxy-Map
-ED3D-Galaxy-Map is a 3D galactic map (web app) for the game Elite: Dangerous.
-Work with JSon file to embed stellar systems data.
+# Fork important information: ES6-module conversion.
+
+This fork is meant to be used as *ES6 module*. This means that it should be
+rather compiled using Webpack or similar.
+
+This makes this version of *ED3D* fundamentally incompatible with the original 
+version.
+
+**The development is currently ongoing and there's a lot to do: do not use
+this version unless you're a developer!**
+
+# ED3D - An Elite: Dangerous 3D Galaxy Map
+ED3D is a 3D galactic map (web app) for the game Elite: Dangerous.
+Work with JSon file to embed stellar system data.
 
 ## Demo
+
 * [Elite: Dangerous Milky Way](http://en.ed-board.net/3Dgalaxy/)
 * [3D Galnet News](http://en.ed-board.net/3Dgalnet/)
 * [EDSM Dump test](http://en.ed-board.net/3Dedsm_test/)
 
 ## Features
+
 * JSON file to fill the map.
-* Manage click event to display information related to a system (if detailed infos, need to be in the JSON file).
-* Display a global view of the galaxy that reproduces the ingame galaxy - Generated from a volumetric particle cloud from an ingame screenshot (a kind of heightmap).
+* Manage click event to display information related to a system (if detailed 
+  infos, need to be in the JSON file).
+* Display a global view of the galaxy that reproduces the in-game galaxy - 
+  Generated from a volumetric particle cloud from an in-game screenshot (a 
+  kind of heightmap).
 * HUD with customizable categories to filter the map. [Optional]
 * CSS+HTML HUD to fit to any style.
-* Systems colorizations using color attribute that can be set on each category and soon use color from ingame stellar type (if stellar type defined in JSon file for each system). [Optional]
+* Systems colorization using color attribute that can be set on each 
+  category and soon use color from in-game stellar type (if stellar type 
+  defined in JSon file for each system). [Optional]
 * Can show exploration routes.
 
 ## Requirement
